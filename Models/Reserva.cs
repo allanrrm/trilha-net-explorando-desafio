@@ -5,6 +5,8 @@ namespace DesafioProjetoHospedagem.Models
         public List<Pessoa> Hospedes { get; set; }
         public Suite Suite { get; set; }
         public int DiasReservados { get; set; }
+        public DateTime DataEntrada { get; set; }
+        public DateTime DataSaida { get; set; }
 
         public Reserva() { }
 
